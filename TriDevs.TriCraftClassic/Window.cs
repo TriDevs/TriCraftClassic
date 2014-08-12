@@ -9,7 +9,7 @@ namespace TriDevs.TriCraftClassic
 {
     public class Window : GameWindow
     {
-        public Window() : base(1280, 720)
+        public Window(int width, int height) : base(width, height)
         {
 
         }

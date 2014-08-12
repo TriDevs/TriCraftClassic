@@ -8,7 +8,7 @@ namespace TriDevs.TriCraftClassic
         [STAThread]
         public static void Main(string[] args)
         {
-            Window window = new Window();
+            Window window = new Window(1280, 720);
             window.Run(60.0);
         }
     }
