@@ -5,7 +5,6 @@ namespace TriDevs.TriCraftClassic
 {
     class Program
     {
-        [STAThread]
         public static void Main(string[] args)
         {
             Window window = new Window(1280, 720);
